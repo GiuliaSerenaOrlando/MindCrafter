@@ -1,0 +1,5 @@
+The .py file is my first full project with Python using nltk. 
+It was a project I developed for my final assignment in the Python course at the University of Helsinki.
+Originally I was using a much larger corpus, which was more effective in the final results,
+but much less clean. Therefore I decided to take some lyrics, less than in the original .txt, 
+but clean them as much as possible, for the processing.

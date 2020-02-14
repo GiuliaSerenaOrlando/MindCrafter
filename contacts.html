@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Giulia Orlando Resumé</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width", initial-scale=1.0>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            
+        <script>
+            function openSlideMenu(){
+                document.getElementById('menu').style.width = '250px';
+                document.getElementById('content').style.marginLeft = '250px';
+            }
+            function closeSlideMenu(){
+                document.getElementById('menu').style.width = '0px';
+                document.getElementById('content').style.marginLeft = '0px';
+            }
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            
+            <nav>
+                <div class="nav-bar">
+                    
+                    <div class="slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                    
+                    <ul class="nav-elements">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                    
+                    <div class="logo">
+                        <img src="inverted_logo.png" alt="logo">
+                    </div>
+                    
+                </div>
+                
+                <div id="menu" class="menu">
+                    <a href="#" class="close" onclick="closeSlideMenu()">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    
+                    <a href="index.html">Home</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contacts.html">Contacts</a>
+                    
+                </div>
+            </nav> 
+            
+        </header>
+    
+        <section>
+            <div class="container-text_cn">
+                        <p id="cn">Address &nbsp; &nbsp; Taivaskero 5 D 40 Vantaa</p>
+                        <br>
+                        <p id="cn">Mobile &nbsp; &nbsp; 0400 292950</p>
+                        <br>
+                        <p id="cn">Email<a id="social" href="mailto:giuliaserena.orlando@outlook.it">&nbsp; &nbsp;Giulia Serena Orlando</a></p>
+                        <br>
+                        <p id="cn">Social media<a id="social" href="https://www.linkedin.com/in/giulia-orlando-65b972169/">&nbsp; &nbsp; LinkedIN</a><a id="social" href="https://www.facebook.com/giulia.orlando2"> &nbsp; Facebook</a></p>
+             </div>  
+        </section>
+    
+    
+    </body>
+
+
+
+
+
+</html>

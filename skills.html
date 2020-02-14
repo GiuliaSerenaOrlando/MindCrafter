@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Giulia Orlando Resumé</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width", initial-scale=1.0>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            
+        <script>
+            function openSlideMenu(){
+                document.getElementById('menu').style.width = '250px';
+                document.getElementById('content').style.marginLeft = '250px';
+            }
+            function closeSlideMenu(){
+                document.getElementById('menu').style.width = '0px';
+                document.getElementById('content').style.marginLeft = '0px';
+            }
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            
+            <nav>
+                <div class="nav-bar">
+                    
+                    <div class="slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                    
+                    <ul class="nav-elements">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                    
+                    <div class="logo">
+                        <img src="inverted_logo.png" alt="logo">
+                    </div>
+                    
+                </div>
+                
+                <div id="menu" class="menu">
+                    <a href="#" class="close" onclick="closeSlideMenu()">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    
+                    <a href="index.html">Home</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contacts.html">Contacts</a>
+                    
+                </div>
+            </nav> 
+            
+        </header>
+    
+        <section>
+            <div class="container-text_sk">
+                <div class="box-text_sk" id="box-text_sk_one">
+                    <ul class="generic_sk">
+                        <li id="st_one">Translation • Target IT/EN Source IT/EN/ZH/FI/TR/AR/FR</li>
+                        <li id="st_two">Proofreading</li>
+                        <li id="st_one">Programming skills •Basic Knowledge (Py, HTML, CSS)</li>
+                        <li id="st_two">Video editing</li>
+                        <li id="st_one">Public speaking</li>
+                    </ul>
+                </div>
+                
+                <div class="box-text_sk" id="box-text_sk_two">
+                    <ul class="lang_sk">
+                        <li>LANGUAGE SKILLS</li>
+                        <li>Italian</li>
+                        <div class="skill_bar" id="it">Native speaker</div>
+                        <li>English</li>
+                        <div class="skill_bar" id="en">Proficient user</div>
+                        <li>Chinese</li>
+                        <div class="skill_bar" id="zh">Intermediate user</div>
+                        <li>Finnish</li>
+                        <div class="skill_bar" id="fi">Intermediate user</div>
+                        <li>Turkish</li>
+                        <div class="skill_bar" id="tr">Basic user</div>
+                        <li>Arabic</li>
+                        <div class="skill_bar" id="ar">Basic user</div>
+                        <li>French</li>
+                        <div class="skill_bar" id="fr">Basic user</div>
+                    </ul>
+                </div>
+            </div>
+        
+        </section>
+    
+    
+    </body>
+
+
+
+
+
+</html>
